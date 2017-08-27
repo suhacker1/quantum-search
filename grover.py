@@ -1,9 +1,11 @@
 '''An implementation of Grover's Algorithm (a Quantum Search Algorithm)'''
+
 #Dependencies
 import sys
 sys.path.append("/Users/suhahussain/qiskit-sdk-py/")
 from qiskit import QuantumProgram
 import Qconfig
+
 #Initializing the program as well as the registers and the circuit
 qp = QuantumProgram()
 n = 2 # n refers to the number of qubits in the system
