@@ -1,8 +1,6 @@
 '''An implementation of Grover's Algorithm (a Quantum Search Algorithm)'''
 
 #Dependencies
-import sys
-sys.path.append("/Users/suhahussain/qiskit-sdk-py/")
 from qiskit import QuantumProgram
 import Qconfig
 
